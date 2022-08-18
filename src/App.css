@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@400;700&display=swap');
+*{
+  font-family: "Ubuntu Mono";
+}
+
+body{
+  background-color: darkblue;
+}
+
+
+.App{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.App h1{
+  font-size: 45px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  color: antiquewhite;
+  font-weight: 800;
+  z-index: 3;
+  color: aqua;
+}
+.App h1 span{
+  padding: 10px;
+  background-color: aqua;
+  color: darkblue;
+  border-radius: 30px;
+  margin-left: 3px;
+}
+
+.App .options{
+  display: flex;
+}
+
+.App .delete-all{
+  padding: 10px;
+  border: none;
+  margin-top: 30px;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: aqua;
+  color: darkblue;
+  border-radius: 30px;
+  margin-left: 10%;
+  transition: 0.2s;
+}
+
+
+.App .delete-all:hover{
+  box-shadow: 0 0 10px 1000px rgba(0, 0, 0, 0.3);
+  z-index: 1;
+}
